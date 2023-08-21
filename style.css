@@ -7,10 +7,15 @@ body {
   display: inline;
   margin-right: 18pt;
   border: solid 1px red;
+  background-color: yellow;
 }
 
 ol li {
   font-style: oblique;
+}
+
+h1 {
+  color: brown;
 }
 
 h5 {
