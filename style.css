@@ -1,0 +1,18 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.recipe-list li {
+  font-size: 18px;
+  display: inline;
+  margin-right: 18pt;
+  border: solid 1px red;
+}
+
+ol li {
+  font-style: oblique;
+}
+
+h5 {
+  margin-bottom: 0;
+}
