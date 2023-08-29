@@ -1,13 +1,22 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  max-width: 666px;
+  margin: auto;
+}
+
+.recipe-list {
+  text-align: center;
+  padding: 0;
 }
 
 .recipe-list li {
   font-size: 18px;
-  display: inline;
-  margin-right: 18pt;
-  border: solid 1px red;
-  background-color: yellow;
+  display: inline-block;
+  padding: 6px 11px;
+  margin: 0 6pt;
+  background-color: hsl(46, 50%, 92%);
+  text-decoration: none;
 }
 
 ol li {
@@ -16,8 +25,18 @@ ol li {
 
 h1 {
   color: brown;
+  text-align: center;
+}
+
+h4 {
+  color: purple;
 }
 
 h5 {
+  color: teal;
   margin-bottom: 0;
+}
+
+img {
+  width: 450px;
 }
